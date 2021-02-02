@@ -7,3 +7,7 @@ before_script:
  - composer update
 
 script: phpunit
+
+branches:
+  only: 
+    - main
