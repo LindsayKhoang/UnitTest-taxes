@@ -47,4 +47,4 @@ jobs:
         coverage: xdebug
 
     - name: Coverage
-      run: php bin/phpunit --coverage-clover=coverage.xml
+      run: php bin/phpunit --coverage-php
