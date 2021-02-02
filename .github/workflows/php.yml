@@ -39,3 +39,6 @@ jobs:
     - name: Run test
       # run: composer run-script test
       run: php bin/phpunit
+
+    - name: Coverage
+      run: php bin/phpunit --coverage-clover=coverage.xml
