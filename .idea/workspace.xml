@@ -11,11 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0b78dfa-7f8b-4ecc-9ef1-dc2045740a16" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/calculateur-impot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/calculateur-impot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +155,7 @@
       <workItem from="1606828527859" duration="1400000" />
       <workItem from="1606829953069" duration="6295000" />
       <workItem from="1612189221963" duration="4148000" />
-      <workItem from="1612251115100" duration="999000" />
+      <workItem from="1612251115100" duration="1709000" />
     </task>
     <servers />
   </component>
