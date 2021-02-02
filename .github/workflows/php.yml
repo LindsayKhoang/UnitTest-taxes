@@ -8,7 +8,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -46,6 +45,9 @@ jobs:
         php-version: '7.4'
         coverage: xdebug
 
+  coverage:
+    runs-on: ubuntu-latest
+
     - name: Coverage
       run: php bin/phpunit --coverage-clover=coverage.xml
 
@@ -55,3 +57,10 @@ jobs:
       with:
         percentage: "60"
         filename: "coverage.xml"
+
+  phplint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - uses: michaelw90/PHP-Lint@master
