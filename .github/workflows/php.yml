@@ -42,6 +42,7 @@ jobs:
   coverage:
     runs-on: ubuntu-latest
 
+    steps:
       - name: Setup PHP with Xdebug
         uses: shivammathur/setup-php@v2
         with:
