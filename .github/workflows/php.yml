@@ -45,15 +45,9 @@ jobs:
         php-version: '7.4'
         coverage: xdebug
 
-  coverage:
+  phplint:
     runs-on: ubuntu-latest
 
-    - name: Coverage
-      run: php bin/phpunit --coverage-clover=coverage.xml
-
-    - name: Check test coverage
-      id: test-coverage
-      uses: johanvanhelden/gha-clover-test-coverage-check@v1
-      with:
-        percentage: "60"
-        filename: "coverage.xml"
+    steps:
+      - uses: actions/checkout@v1
+      - uses: michaelw90/PHP-Lint@master
